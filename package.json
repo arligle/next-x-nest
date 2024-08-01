@@ -1,0 +1,28 @@
+{
+  "name": "your-jira",
+  "version": "1.0.0",
+  "description": "An end to end mini-project which explores using NextJs, Next Auth on the frontend and NestJs backend by making a lightweight Kanban board called \\\"Your Jira\\\".",
+  "workspaces": [
+    "apps/*"
+  ],
+  "keywords": [
+    "nest",
+    "next",
+    "turborepo",
+    "next-auth",
+    "supabase"
+  ],
+  "author": "Abel",
+  "packageManager": "pnpm@9.4.0",
+  "devDependencies": {
+
+    "tsconfig": "*",
+    "turbo": "latest"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+ 
+  },
+  "license": "ISC"
+}
